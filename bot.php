@@ -19,8 +19,8 @@
       // $arrayPostData['messages'][1]['type'] = "sticker";
       // $arrayPostData['messages'][1]['packageId'] = "2";
       // $arrayPostData['messages'][1]['stickerId'] = "34";
-       pushMsg($arrayHeader,$arrayPostData(
-        {
+       pushMsg($arrayHeader,$arrayPostData({
+        "to":$id,
     "type": "flex",
     "altText": "Flex Message",
     "contents": {
