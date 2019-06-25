@@ -6,184 +6,184 @@ $POST_HEADER = array('Content-Type: application/json', 'Authorization: Bearer ' 
 $request = file_get_contents('php://input');   // Get request content
 $request_array = json_decode($request, true);   // Decode JSON to Array
 $jsonFlex = [
-    "type"=> "flex",
-    "altText"=> "Flex Message",
-    "contents"=> [
-      "type"=> "carousel",
-      "contents"=> [
+    "type" => "flex",
+    "altText" => "Flex Message",
+    "contents" => [
+      "type" => "carousel",
+      "contents" => [
         [
-          "type"=> "bubble",
-          "hero"=> [
-            "type"=> "image",
-            "url"=> "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_5_carousel.png",
-            "size"=> "full",
-            "aspectRatio"=> "20:13",
-            "aspectMode"=> "cover"
+          "type" => "bubble",
+          "hero" => [
+            "type" => "image",
+            "url" => "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_5_carousel.png",
+            "size" => "full",
+            "aspectRatio" => "20:13",
+            "aspectMode" => "cover"
           ],
-          "body"=> [
-            "type"=> "box",
-            "layout"=> "vertical",
-            "spacing"=> "sm",
-            "contents"=> [
+          "body" => [
+            "type" => "box",
+            "layout" => "vertical",
+            "spacing" => "sm",
+            "contents" => [
               [
-                "type"=> "text",
-                "text"=> "Arm Chair, White",
-                "size"=> "xl",
-                "weight"=> "bold",
-                "wrap"=> true
+                "type" => "text",
+                "text" => "Arm Chair, White",
+                "size" => "xl",
+                "weight" => "bold",
+                "wrap" => true
               ],
               [
-                "type"=>"box",
-                "layout"=> "baseline",
-                "contents"=> [
+                "type" =>"box",
+                "layout" => "baseline",
+                "contents" => [
                   [
-                    "type"=> "text",
-                    "text"=> "$49",
-                    "flex"=> 0,
-                    "size"=> "xl",
-                    "weight": "bold",
-                    "wrap"=> true
+                    "type" => "text",
+                    "text" => "$49",
+                    "flex" => 0,
+                    "size" => "xl",
+                    "weight" => "bold",
+                    "wrap" => true
                   ],
                   [
-                    "type"=> "text",
-                    "text"=> ".99",
-                    "flex"=> 0,
-                    "size"=> "sm",
-                    "weight"=> "bold",
-                    "wrap"=> true
+                    "type" => "text",
+                    "text" => ".99",
+                    "flex" => 0,
+                    "size" => "sm",
+                    "weight" => "bold",
+                    "wrap" => true
                   ]
                 ]
               ]
             ]
           ],
-          "footer"=> [
-            "type"=> "box",
-            "layout"=> "vertical",
-            "spacing"=> "sm",
-            "contents"=> [
+          "footer" => [
+            "type" => "box",
+            "layout" => "vertical",
+            "spacing" => "sm",
+            "contents" => [
               [
-                "type"=> "button",
-                "action"=> [
-                  "type"=> "uri",
-                  "label"=> "สมัครสมาชิก",
-                  "uri"=> "https://linecorp.com"
+                "type" => "button",
+                "action" => [
+                  "type" => "uri",
+                  "label" => "สมัครสมาชิก",
+                  "uri" => "https://linecorp.com"
                 ],
-                "color"=> "#FD0A0A",
-                "style"=> "primary"
+                "color" => "#FD0A0A",
+                "style" => "primary"
               ],
               [
-                "type"=> "button",
-                "action"=> [
-                  "type"=> "uri",
-                  "label"=> "เข้าเว็บ",
-                  "uri"=> "https://linecorp.com"
+                "type" => "button",
+                "action" => [
+                  "type" => "uri",
+                  "label" => "เข้าเว็บ",
+                  "uri" => "https://linecorp.com"
                 ],
-                "color"=>"#1BCA14",
-                "style"=> "primary"
+                "color" =>"#1BCA14",
+                "style" => "primary"
               ]
             ]
           ]
         ],
         [
-          "type"=> "bubble",
-          "hero"=> [
-            "type"=> "image",
-            "url"=> "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_6_carousel.png",
-            "size"=> "full",
-            "aspectRatio"=> "20:13",
-            "aspectMode"=> "cover"
+          "type" => "bubble",
+          "hero" => [
+            "type" => "image",
+            "url" => "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_6_carousel.png",
+            "size" => "full",
+            "aspectRatio" => "20:13",
+            "aspectMode" => "cover"
           ],
-          "body"=> [
-            "type"=> "box",
-            "layout"=> "vertical",
-            "spacing"=> "sm",
-            "contents"=> [
+          "body" => [
+            "type" => "box",
+            "layout" => "vertical",
+            "spacing" => "sm",
+            "contents" => [
               [
-                "type"=>"text",
-                "text"=>"Metal Desk Lamp",
-                "size"=> "xl",
-                "weight"=> "bold",
-                "wrap"=> true
+                "type" =>"text",
+                "text" =>"Metal Desk Lamp",
+                "size" => "xl",
+                "weight" => "bold",
+                "wrap" => true
               ],
               [
-                "type"=> "box",
-                "layout"=> "baseline",
-                "flex"=> 1,
-                "contents"=> [
+                "type" => "box",
+                "layout" => "baseline",
+                "flex" => 1,
+                "contents" => [
                   [
-                    "type"=> "text",
-                    "text"=> "$11",
-                    "flex"=> 0,
-                    "size"=>"xl",
-                    "weight"=> "bold",
-                    "wrap"=> true
+                    "type" => "text",
+                    "text" => "$11",
+                    "flex" => 0,
+                    "size" =>"xl",
+                    "weight" => "bold",
+                    "wrap" => true
                   ],
                   [
-                    "type"=> "text",
-                    "text"=> ".99",
-                    "flex"=> 0,
-                    "size"=> "sm",
-                    "weight"=>"bold",
-                    "wrap"=> true
+                    "type" => "text",
+                    "text" => ".99",
+                    "flex" => 0,
+                    "size" => "sm",
+                    "weight" =>"bold",
+                    "wrap" => true
                   ]
                 ]
               ],
               [
-                "type"=> "text",
-                "text"=> "Temporarily out of stock",
-                "flex"=> 0,
-                "margin"=> "md",
-                "size"=> "xxs",
-                "color"=> "#FF5551",
-                "wrap"=> true
+                "type" => "text",
+                "text" => "Temporarily out of stock",
+                "flex" => 0,
+                "margin" => "md",
+                "size" => "xxs",
+                "color" => "#FF5551",
+                "wrap" => true
               ]
             ]
           ],
-          "footer"=> [
-            "type"=> "box",
-            "layout"=> "vertical",
-            "spacing"=> "sm",
-            "contents"=> [
+          "footer" => [
+            "type" => "box",
+            "layout" => "vertical",
+            "spacing" => "sm",
+            "contents" => [
               [
-                "type"=> "button",
-                "action"=> [
-                  "type"=> "uri",
-                  "label"=> "สมัครสมาชิก",
-                  "uri"=> "https://linecorp.com"
+                "type" => "button",
+                "action" => [
+                  "type" => "uri",
+                  "label" => "สมัครสมาชิก",
+                  "uri" => "https://linecorp.com"
                 ],
-                "flex"=> 2,
-                "color"=> "#FD0A0A",
-                "style"=> "primary"
+                "flex" => 2,
+                "color" => "#FD0A0A",
+                "style" => "primary"
               ],
               [
-                "type"=> "button",
-                "action"=> [
-                  "type"=> "uri",
-                  "label"=> "เข้าเว็บ",
-                  "uri"=> "https://linecorp.com"
+                "type" => "button",
+                "action" => [
+                  "type" => "uri",
+                  "label" => "เข้าเว็บ",
+                  "uri" => "https://linecorp.com"
                 ],
-                "color"=> "#1BCA14",
-                "style"=> "primary"
+                "color" => "#1BCA14",
+                "style" => "primary"
               ]
             ]
           ]
         ],
         [
-          "type"=> "bubble",
-          "body"=> [
-            "type"=> "box",
-            "layout"=> "vertical",
-            "spacing"=> "sm",
-            "contents"=> [
+          "type" => "bubble",
+          "body" => [
+            "type" => "box",
+            "layout" => "vertical",
+            "spacing" => "sm",
+            "contents" => [
               [
-                "type"=> "button",
-                "action"=> [
-                  "type"=> "uri",
-                  "label"=> "ดูเพิ่ม",
-                  "uri"=> "https://linecorp.com"
+                "type" => "button",
+                "action" => [
+                  "type" => "uri",
+                  "label" => "ดูเพิ่ม",
+                  "uri" => "https://linecorp.com"
                 ],
-                "flex"=> 1,
-                "gravity"=> "center"
+                "flex" => 1,
+                "gravity" => "center"
               ]
             ]
           ]
