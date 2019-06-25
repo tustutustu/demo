@@ -1,4 +1,5 @@
 <?php
+ http_response_code(200);
 $httpClient = new \CurlHTTPClient('GXtc+040e4As0jFqmIWL/cI1cr48MZeXtwD2X6fh74Rw7Mk09LYByMWeBQZdiZRsBjmhV918UIFclBhJji87CThJbsvLez47hJA/lI0w4oy0lGeJ2uuA4SCQPiwO8rZnZrfcE9n68Q9L5Av3GNEWDwdB04t89/1O/w1cDnyilFU=');
 $bot = new \LINEBot($httpClient, ['channelSecret' => 'e11cef3ff1c5c69f50f401ddcebff0f5']);
 
