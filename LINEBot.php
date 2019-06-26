@@ -196,7 +196,7 @@
       ]
     ]
 ];
-$ThatTime ="20:30:00";
+$ThatTime ="20:40:00";
 if (time() == strtotime($ThatTime)) {
       pushMsg($arrayHeader,$arrayPostData);
    }
