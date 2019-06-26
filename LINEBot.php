@@ -1,5 +1,5 @@
 <?php
-   $accessToken = "";//copy ข้อความ Channel access token ตอนที่ตั้งค่า
+   $accessToken = "GXtc+040e4As0jFqmIWL/cI1cr48MZeXtwD2X6fh74Rw7Mk09LYByMWeBQZdiZRsBjmhV918UIFclBhJji87CThJbsvLez47hJA/lI0w4oy0lGeJ2uuA4SCQPiwO8rZnZrfcE9n68Q9L5Av3GNEWDwdB04t89/1O/w1cDnyilFU=";//copy ข้อความ Channel access token ตอนที่ตั้งค่า
    $content = file_get_contents('php://input');
    $arrayJson = json_decode($content, true);
    $arrayHeader = array();
@@ -10,7 +10,7 @@
    //รับ id ของผู้ใช้
    $id = $arrayJson['events'][0]['source']['userId'];
    #ตัวอย่าง Message Type "Text + Sticker"
-   $ThatTime ="21:00:00";
+   $ThatTime ="2:05:00";
 if (time() >= strtotime($ThatTime)) {
       $arrayPostData['to'] = $id;
       $arrayPostData['messages'][0]['type'] = "text";
