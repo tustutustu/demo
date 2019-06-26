@@ -10,8 +10,12 @@
    //รับ id ของผู้ใช้
    $id = $arrayJson['events'][0]['source']['userId'];
    #ตัวอย่าง Message Type "Text + Sticker"
-   $ThatTime ="2:05:00";
-if (time() >= strtotime($ThatTime)) {
+   $ThatTime ="21:15:10";
+   if (time() >= strtotime($ThatTime)) {
+     echo "ok";
+   }
+
+   if ($dateTime->diff(new DateTime)->format('%R') == '+') {
       $arrayPostData['to'] = $id;
       $arrayPostData['messages'][0]['type'] = "text";
       $arrayPostData['messages'][0]['text'] = "สวัสดีจ้าาา";
